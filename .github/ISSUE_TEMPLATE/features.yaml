@@ -1,7 +1,7 @@
-name: New Features Request
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug"]
+name: Feature Request
+description:  Suggest a feature request
+title: "[Features]: "
+labels: ["feature"]
 projects: ["ISRO-web"]
 assignees: ""
 
