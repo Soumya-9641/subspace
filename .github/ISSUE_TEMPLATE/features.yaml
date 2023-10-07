@@ -1,0 +1,38 @@
+name: New Features Request
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+projects: ["ISRO-web"]
+assignees: ""
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this features report!
+  - type: textarea
+    id: what is your new idea
+    attributes:
+      label: What is your new idea?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A feature happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: How you solve this new idea
+    attributes:
+      label: What is your aproach for new features
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A feature happened!"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
