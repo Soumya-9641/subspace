@@ -3,15 +3,15 @@ description:  Suggest a feature request
 title: "[Features]: "
 labels: ["feature"]
 projects: ["ISRO-web"]
-assignees: ""
-
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this features report!
   - type: textarea
-    id: what is your new idea
+    id: newIdea
     attributes:
       label: What is your new idea?
       description: Also tell us, what did you expect to happen?
@@ -20,7 +20,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: How you solve this new idea
+    id: Approach
     attributes:
       label: What is your aproach for new features
       description: Also tell us, what did you expect to happen?
