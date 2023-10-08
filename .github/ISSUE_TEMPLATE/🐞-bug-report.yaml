@@ -3,13 +3,12 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
 projects: ["ISRO-web"]
-assignees: ""
-  
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      value: " Thanks for taking the time to fill out this bug report!"
   - type: checkboxes
     id: issue-check
     attributes:
