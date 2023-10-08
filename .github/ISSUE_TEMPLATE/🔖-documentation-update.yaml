@@ -43,3 +43,11 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+  - type: checkboxes
+    id: issue-terms
+    attributes:
+      label: I want to work on this issue
+      description: I want to work on this issue
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
