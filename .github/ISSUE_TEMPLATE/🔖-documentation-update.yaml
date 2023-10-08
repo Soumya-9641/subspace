@@ -1,7 +1,7 @@
 name: Feature Request
 description:  Suggest a feature request
-title: "[Features]: "
-labels: ["feature"]
+title: "[Documentation]: "
+labels: ["Documentation"]
 projects: ["ISRO-web"]
 assignees:
   - octocat
@@ -10,22 +10,30 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this features report!
+  - type: checkboxes
+    id: issue-check
+    attributes:
+      label: 
+      description: Please search to see if an issue already exist for the features you proposed.
+      options:
+        - label: I have searched the existing issues.
+          required: true
   - type: textarea
     id: newIdea
     attributes:
       label: What is your new idea?
-      description: Also tell us, what did you expect to happen?
+      description: Tell us about the problem you saw in the documentation
       placeholder: Tell us what you see!
-      value: "A feature happened!"
+      value: "A new documentaion happened!"
     validations:
       required: true
   - type: textarea
     id: Approach
     attributes:
       label: What is your aproach for new features
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A feature happened!"
+      description: Tell us how you are going to solve the stated problem
+      placeholder: Tell us what your approach!
+      value: "A new documentation approach happened!"
     validations:
       required: true
   - type: checkboxes
